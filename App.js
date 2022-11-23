@@ -12,13 +12,13 @@ export default function App () {
       name:'Alvaro',
       surname:'Carrasco',
       phone:982919213,
-      icono:'car-sport'
+      icono:'play'
     },
     {
       name:'Pepe',
       surname:'Carrasco',
       phone:982919213,
-      icono:'account-circle'
+      icono:'shake'
     },
     {
       name:'Maria',
@@ -30,13 +30,13 @@ export default function App () {
       name:'Ana',
       surname:'Carrasco',
       phone:982919213,
-      icono:'account-circle'
+      icono:'shake'
     },
     {
       name:'Daniel',
       surname:'Carrasco',
       phone:982919213,
-      icono:'account-circle'
+      icono:'play'
     }
   ]
   const renderItem = ({ item }) => (
@@ -44,7 +44,7 @@ export default function App () {
       <Text style={styles.title}>{item.name}</Text>
       <Text>{item.surname}</Text>
       <Text>{item.phone}</Text>
-      
+      <Icon name="comments" size={30} color="#900"/>
     </View>
   )
   return (
